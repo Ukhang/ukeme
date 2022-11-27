@@ -27,3 +27,5 @@ $PROJECT_ROOT
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+Check out [Licence](https://choosealicense.com/licenses/mit/) for more details
