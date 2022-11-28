@@ -30,4 +30,4 @@ $PROJECT_ROOT
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Check out [Licence](https://choosealicense.com/licenses/mit/) for more details
+Check out [Licence](https://github.com/Ukhang/ukeme/blob/main/LICENSE) for more details
