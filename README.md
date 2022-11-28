@@ -4,8 +4,6 @@ Ukhang Marma Portfolio Website ✅
 
 Watch Live : [http://localhost:3000](http://localhost:3000)
 
-![profile](https://user-images.githubusercontent.com/94834060/204159155-442c52cd-1236-44c2-bfd1-e6b0449011ea.PNG)
-
 ## Stack
 
 - [Next.js](https://nextjs.org/)
