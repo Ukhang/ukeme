@@ -63,7 +63,7 @@ const SnakeGame = () => {
                     </div>
 
                     <div className="mt-5">
-                        <Image src="/images/snakegame-sub1.png" width={1100} height={650} className="w-full rounded-lg" alt="snakegame image" />
+                        <Image src="/images/snakegame-sub1.PNG" width={1100} height={650} className="w-full rounded-lg" alt="snakegame image" />
                     </div>
                 </section>
             </main>

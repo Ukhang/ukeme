@@ -69,9 +69,9 @@ const Brenda = () => {
                     </div>
 
                     <div className="mt-5">
-                        <Image src="/images/brenda-sub1.png" width={1100} height={650} className="w-full rounded-lg" alt="brenda image" />
-                        <Image src="/images/brenda-sub2.png" width={1100} height={650} className="w-full rounded-lg mt-5" alt="brenda image" />
-                        <Image src="/images/brenda-sub3.png" width={1100} height={650} className="w-full rounded-lg mt-5" alt="brenda image" />
+                        <Image src="/images/brenda-sub1.PNG" width={1100} height={650} className="w-full rounded-lg" alt="brenda image" />
+                        <Image src="/images/brenda-sub2.PNG" width={1100} height={650} className="w-full rounded-lg mt-5" alt="brenda image" />
+                        <Image src="/images/brenda-sub3.PNG" width={1100} height={650} className="w-full rounded-lg mt-5" alt="brenda image" />
                     </div>
                 </section>
             </main>

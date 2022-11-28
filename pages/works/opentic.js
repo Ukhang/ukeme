@@ -68,8 +68,8 @@ const Opentic = () => {
                     </div>
 
                     <div className="mt-5">
-                        <Image src="/images/opentic-sub1.png" width={1100} height={650} className="w-full rounded-lg" alt="Opentic image" />
-                        <Image src="/images/opentic-sub2.png" width={1100} height={650} className="w-full rounded-lg mt-5" alt="Opentic Image" />
+                        <Image src="/images/opentic-sub1.PNG" width={1100} height={650} className="w-full rounded-lg" alt="Opentic image" />
+                        <Image src="/images/opentic-sub2.PNG" width={1100} height={650} className="w-full rounded-lg mt-5" alt="Opentic Image" />
                     </div>
                 </section>
             </main>

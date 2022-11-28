@@ -76,8 +76,8 @@ const NumberConverter = () => {
                     </div>
 
                     <div className="mt-5">
-                        <Image src="/images/numberconverter-sub1.png" width={1100} height={650} className="w-full rounded-lg" alt="number-converter" />
-                        <Image src="/images/numberconverter-sub2.png" width={1100} height={650} className="w-full rounded-lg mt-5" alt="number-converter" />
+                        <Image src="/images/numberconverter-sub1.PNG" width={1100} height={650} className="w-full rounded-lg" alt="number-converter" />
+                        <Image src="/images/numberconverter-sub2.PNG" width={1100} height={650} className="w-full rounded-lg mt-5" alt="number-converter" />
                     </div>
                 </section>
             </main>
