@@ -61,7 +61,7 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <Link href="/" className={`capitalize py-2.5 px-2.5 hover:bg-[#06B6D4] hover:text-white flex items-center gap-x-1 ${(router.pathname == "/source" && "bg-[#06B6D4] text-white")}`}>
+                            <Link href="https://github.com/Ukhang/ukeme" target="_blank" className={`capitalize py-2.5 px-2.5 hover:bg-[#06B6D4] hover:text-white flex items-center gap-x-1 ${(router.pathname == "/source" && "bg-[#06B6D4] text-white")}`}>
                                 <GoMarkGithub className="h-3.5"/> source
                             </Link>
                         </li>
@@ -100,7 +100,7 @@ const Header = () => {
                             <Link href='/contact' className="capitalize">Contact</Link>
                         </li>
                         <li className={`py-2 px-3 cursor-pointer hover:bg-[#e2f4f8] dark:hover:bg-gray-600 ${(router.pathname == "/source" && "bg-[#e2f4f8] dark:bg-gray-600")}`}>
-                            <Link href='/source' className="flex items-center gap-x-1 capitalize">
+                            <Link href='https://github.com/Ukhang/ukeme' target="_blank" className="flex items-center gap-x-1 capitalize">
                                 <GoMarkGithub className="h-3.5"/> source
                             </Link>
                         </li>
