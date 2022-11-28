@@ -8,6 +8,9 @@ Inspired by [craftzdog - craftzdog-homepage project](https://github.com/craftzdo
 
 Watch Live : [http://localhost:3000](http://localhost:3000)
 
+## Demo
+![demo](https://user-images.githubusercontent.com/94834060/204208555-ff9a09bc-6216-4d9c-a019-aedeae2943b6.png)
+
 ## Stack
 
 - [Next.js](https://nextjs.org/)
