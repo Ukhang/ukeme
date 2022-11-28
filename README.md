@@ -6,7 +6,7 @@ Inspired by [craftzdog - craftzdog-homepage project](https://github.com/craftzdo
 
 ![vercel-building](https://user-images.githubusercontent.com/94834060/202710082-c4561c0b-da58-4a0b-9e48-a695d92aaf82.png)
 
-Watch Live : [http://localhost:3000](http://localhost:3000)
+Watch Live : [https://ukeme.vercel.app](https://ukeme.vercel.app)
 
 ## Stack
 
