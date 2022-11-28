@@ -1,15 +1,10 @@
-## Ukeme
+## ![profile](https://user-images.githubusercontent.com/94834060/204208784-5e144d31-5981-42c5-9f5e-1f5465021738.png) Ukeme
 
 Ukhang Marma Portfolio Website ✅
 
 Inspired by [craftzdog - craftzdog-homepage project](https://github.com/craftzdog/craftzdog-homepage)
 
-![vercel-building](https://user-images.githubusercontent.com/94834060/202710082-c4561c0b-da58-4a0b-9e48-a695d92aaf82.png)
-
 Watch Live : [http://localhost:3000](http://localhost:3000)
-
-## Demo
-![demo](https://user-images.githubusercontent.com/94834060/204208555-ff9a09bc-6216-4d9c-a019-aedeae2943b6.png)
 
 ## Stack
 
