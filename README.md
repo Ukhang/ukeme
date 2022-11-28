@@ -29,5 +29,3 @@ $PROJECT_ROOT
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-Check out [Licence](https://github.com/Ukhang/ukeme/blob/main/LICENSE) for more details
