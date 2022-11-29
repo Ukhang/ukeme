@@ -18,7 +18,7 @@ const Skills = () => {
                         transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         className="ml-10 cursor-pointer"
                     >
-                        <Image src="/images/pc.png" alt="pc image" width={100} height={101} className="w-auto h-auto"/>
+                        <Image src="/images/pc.png" alt="pc image" width={100} height={101} />
                     </motion.div>
                 </Tooltip>
 
@@ -50,7 +50,7 @@ const Skills = () => {
                         whileInView={{y: 0, opacity: 1}}
                         transition={{delay: 0.1, type: "spring", stiffness: 100}}
                     >
-                        <Image src="/images/windows.png" alt="windows image" width={40} height={45} className="w-auto h-auto"/>
+                        <Image src="/images/windows.png" alt="windows image" width={40} height={45} />
                     </motion.div>
                 </Tooltip>
 
@@ -82,7 +82,7 @@ const Skills = () => {
                         whileInView={{y: 0, opacity: 1}}
                         transition={{delay: 0.1, type: "spring", stiffness: 100}}
                     >
-                        <Image src="/images/linux.png" alt="linux image" width={50} height={65} className="w-auto h-auto"/>
+                        <Image src="/images/linux.png" alt="linux image" width={50} height={65} />
                     </motion.div>
                 </Tooltip>
 
@@ -115,7 +115,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/dbms.png" alt="dbms image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/dbms.png" alt="dbms image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Algoirthm" placement="right">
@@ -125,7 +125,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/algorithm.png" alt="algorithm image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/algorithm.png" alt="algorithm image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Data structrue" placement="left">
@@ -135,7 +135,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/data-structure.png" alt="datastructure image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/data-structure.png" alt="datastructure image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Cpp" placement="right">
@@ -145,7 +145,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/cpp.png" alt="cpp image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/cpp.png" alt="cpp image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Discreate math" placement="left">
@@ -155,7 +155,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/discrete-math.png" alt="discretemathmatics image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/discrete-math.png" alt="discretemathmatics image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                 </div>
@@ -189,7 +189,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/css.png" alt="css image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/css.png" alt="css image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Html" placement="right">
@@ -199,7 +199,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/html.png" alt="html image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/html.png" alt="html image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Javascipt" placement="left">
@@ -209,7 +209,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className=" cursor-pointer"                            
                         >
-                            <Image src="/images/js.png" alt="javascript image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/js.png" alt="javascript image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="React" placement="right">
@@ -219,7 +219,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/react.png" alt="react image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/react.png" alt="react image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Svg" placement="left">
@@ -229,7 +229,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/svg.png" alt="svg image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/svg.png" alt="svg image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Redux" placement="right">
@@ -239,7 +239,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/redux.png" alt="redux image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/redux.png" alt="redux image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Git and github" placement="left">
@@ -249,7 +249,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/git-and-github.png" alt="github image" width={50} height={51} className="w-auto h-auto"/>
+                            <Image src="/images/git-and-github.png" alt="github image" width={50} height={51} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Tailwindcss" placement="right">
@@ -259,7 +259,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/tailwind-css.png" alt="tailwindcss image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/tailwind-css.png" alt="tailwindcss image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Nextjs" placement="left">
@@ -269,7 +269,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className=" cursor-pointer"
                         >
-                            <Image src="/images/nextjs.png" alt="nextjs image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/nextjs.png" alt="nextjs image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                 </div>
@@ -303,7 +303,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/express.png" alt="express image" width={25} height={25} className="w-auto h-auto"/>
+                            <Image src="/images/express.png" alt="express image" width={25} height={25} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Mysql" placement="right">
@@ -313,7 +313,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/mysql.png" alt="mysql image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/mysql.png" alt="mysql image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Node js" placement="left">
@@ -323,7 +323,7 @@ const Skills = () => {
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                             className="cursor-pointer"
                         >
-                            <Image src="/images/nodejs.png" alt="nodejs image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/nodejs.png" alt="nodejs image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                     <Tooltip content="Mongodb" placement="right">
@@ -333,7 +333,7 @@ const Skills = () => {
                             whileInView={{y: 0, opacity: 1}}
                             transition={{delay: 0.1, type: "spring", stiffness: 100}}
                         >
-                            <Image src="/images/mongodb.png" alt="mongodb image" width={30} height={31} className="w-auto h-auto"/>
+                            <Image src="/images/mongodb.png" alt="mongodb image" width={30} height={31} />
                         </motion.div>
                     </Tooltip>
                 </div>
