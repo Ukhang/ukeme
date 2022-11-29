@@ -48,16 +48,16 @@ const ScemaSearchEngine = () => {
                     <div className="flex flex-wrap gap-3 items-center mt-1.5 ml-2">
                         <span className="uppercase text-sm bg-lime-200 dark:bg-[#374e12] font-semibold px-1 text-gray-700 dark:text-lime-200"> stack </span>
                         <span className="text-[#0F172A] dark:text-white flex flex-wrap items-center gap-2">
-                            <div className="flex gap-x-0.5">
-                                <Image src="/images/next-js.svg" className="dark:hidden" width={17} height={17} alt="react image"/>
-                                <Image src="/images/nextjs-white.svg" className="hidden dark:block" width={17} height={17} alt="nextjs image"/>
+                            <div className="flex gap-x-0.5 items-center">
+                                <Image src="/images/next-js.svg" className="dark:hidden w-[17px] h-[17px]" width={17} height={17} alt="react image"/>
+                                <Image src="/images/nextjs-white.svg" className="hidden dark:block w-[17px] h-[17px]" width={17} height={17} alt="nextjs image"/>
                                 <span>NextJS,</span>
                             </div>
-                            <div className="flex gap-x-0.5">
-                                <Image src="/images/tailwind-css.svg" width={17} height={17} alt="react image"/>
+                            <div className="flex gap-x-0.5 items-center">
+                                <Image src="/images/tailwind-css.svg" className="w-[17px] h-[17px]" width={17} height={17} alt="react image"/>
                                 <span>TailwindCSS</span>
                             </div>
-                            <div className="flex gap-x-0.5">
+                            <div className="flex gap-x-0.5 items-center">
                                 🌎
                                 <span>Google Search Api</span>
                             </div>

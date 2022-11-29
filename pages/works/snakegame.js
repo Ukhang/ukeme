@@ -49,7 +49,7 @@ const SnakeGame = () => {
                         <span className="uppercase text-sm bg-lime-200 dark:bg-[#374e12] font-semibold px-1 text-gray-700 dark:text-lime-200"> stack </span>
                         <span className="text-[#0F172A] dark:text-white flex items-center gap-2">
                             <div className="flex gap-x-1 items-center">
-                                <Image src="/images/js.png" width={19} height={19} alt="js image"/>
+                                <Image src="/images/js.png" className="w-[17px] h-[17px]" width={17} height={17} alt="js image"/>
                                 <span>VanilaJs</span>
                             </div>
                         </span>
