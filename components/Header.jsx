@@ -34,7 +34,17 @@ const Header = () => {
                     {/* Logo */}
                     <div>
                         <Link href="/" className="flex items-center gap-x-1 font-semibold text-2xl hover:scale-[101%] transition">
-                            <Image src={logo} alt="logo image" className="cursor-pointer mb-1" />
+                            <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.6556 21.1865L17.0658 21.1961L18.9559 21.2003L18.9594 19.6252L18.9628 18.0501L18.9683 15.53L18.9759 12.0649L18.98 10.1748L18.9842 8.28467L18.046 5.13245L18.0488 3.87239L16.4779 1.97885L12.6997 1.02553L9.5496 1.01863L7.97452 1.01518L2.93084 2.57922L1.03523 5.0952L1.02833 8.24535L1.02005 12.0255L1.96165 13.6027L3.84553 16.442L3.84208 18.017L3.83863 19.5921L3.83518 21.1672L7.93038 21.1761L7.93383 19.6011L7.94072 16.4509L9.5158 16.4544L12.6659 16.4613L12.6625 18.0363L12.6556 21.1865Z" fill="url(#paint0_linear_214_49)" className="cursor-pointer mb-1 dark:stroke-white" stroke="#0F172A" stroke-width="1.5"/>
+                                <path d="M7.78019 7H4.63003L4 8.57508V10.1502L5.57508 10.7802H7.78019V8.57508V7Z" fill="#06B6D4" stroke="black" className="cursor-pointer mb-1"/>
+                                <path d="M11 7H14.3333L15 8.66667V10.3333L13.3333 11H11V8.66667V7Z" fill="#06B6D4" stroke="black" className="cursor-pointer mb-1"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_214_49" x1="8" y1="3.5" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#7EE1F2"/>
+                                <stop offset="1" stop-color="#1CC4E0"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
                             <span className={vt323.className}> Ukhang Marma </span>
                         </Link>
                     </div>
