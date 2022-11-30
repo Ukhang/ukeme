@@ -33,9 +33,8 @@ const Header = () => {
                 <div className="flex items-center">
                     {/* Logo */}
                     <div>
-                        <Link href="/" className="flex items-center gap-x-1 font-semibold text-2xl">
+                        <Link href="/" className="flex items-center gap-x-1 font-semibold text-2xl hover:scale-[101%] transition">
                             <Image src={logo} alt="logo image" className="cursor-pointer mb-1" />
-                            {/* set google font */}
                             <span className={vt323.className}> Ukhang Marma </span>
                         </Link>
                     </div>
