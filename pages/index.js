@@ -28,13 +28,21 @@ export default function Home() {
             I am💻
           </h2>
 
-          <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
+          {/* <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
             Hello I'm Ukhang, I'm a self thought full stack engineer.I have three years of experience working 
             as a full stack developer. I don't have any computer science degree. I could not  take computer 
             science degree due to some family and financial problems. But technology has always been a 
             passion of my life. So I started clearing computer science subjects from internet like C++, 
             Data structure and algorithm, Databases, Discrete Mathematics, computer architecture and 
             much more. Then I learned full stack development by looking at full stack enginner roadmap 
+            from codecadamy. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet.
+          </p> */}
+
+          <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
+            Hello I'm Ukhang, I'm a self thought  Front End engineer.I have Two years of experience working 
+            as a Front End developer. I don't have any computer science degree. I could not  take computer 
+            science degree due to some family and financial problems. But technology has always been a 
+            passion of my life. I learned Front End development by looking at Front End enginner roadmap 
             from codecadamy. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet.
           </p>
 
@@ -74,7 +82,8 @@ export default function Home() {
             </div>
             <div className="flex items-start gap-x-5 mt-1">
               <h4 className="font-bold text-gray-800 dark:text-white">Present</h4>
-              <span className="text-[#0F172A] dark:text-white">Preparing for google coding interview and working as a freelancer</span>
+              {/* <span className="text-[#0F172A] dark:text-white">Preparing for google coding interview and working as a freelancer</span> */}
+              <span className="text-[#0F172A] dark:text-white">Working as FrontEnd Developer</span>
             </div>
           </div>
         </section>
