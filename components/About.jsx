@@ -22,7 +22,7 @@ const About = () => {
                         <span className="text-5xl text-[#0F172A] dark:text-white">Ukhang Marma</span>
                     </h2>
                     {/* <p className="text-[#1E293B] dark:text-white font-[500]">Full Stack Enginner / Comparative programmer</p> */}
-                    <p className="text-[#1E293B] dark:text-white font-[500]">FrontEnd Engineer</p>
+                    <p className="text-[#1E293B] dark:text-white font-[500]">Software Developer</p>
                 </div>
                 {/* Right */}
                 <div className="md:mx-0 mx-auto">
