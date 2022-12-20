@@ -32,7 +32,7 @@ const SnakeGame = () => {
                     </div>
 
                     <p className="mt-3.5 text-justify text-[#0F172A] dark:text-gray-300">
-                        No framework, only js snake game from scratch...
+                        Code - tracker this allows users to add code issues or code reports. It is built with Vanilla Js, Bootstrap and Custom CSS
                     </p>
 
                     <div className="flex flex-wrap gap-3 items-center mt-4 ml-2">
