@@ -39,6 +39,14 @@ const WorkData = [
         alt: "Opentic",
         link: "/works/opentic"
     },
+    {
+        id: 6,
+        name: "code_tracker",
+        subText: "Code - tracker this allows users to add code issues or code reports. It is built with Vanilla Js, Bootstrap and Custom CSS",
+        img: "/images/code-tracker.png",
+        alt: "code_tracker",
+        link: "/works/code_tracker"
+    },
 ];
 
 export default WorkData;
