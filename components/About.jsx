@@ -26,7 +26,7 @@ const About = () => {
                 </div>
                 {/* Right */}
                 <div className="md:mx-0 mx-auto">
-                    <Image src={Ukhang} alt="Ukhang image" width={90} height={90} className="rounded-xl border-2 border-[#06B6D4]"/>
+                    <Image src={Ukhang} alt="Ukhang image" width={90} height={90} className="rounded-lg border-2 border-[#06B6D4]"/>
                 </div>
             </div>
         </section>
