@@ -26,13 +26,13 @@ const ScemaSearchEngine = () => {
                         <div>
                             <h4 className="font-[700] text-lg text-[#0F172A] dark:text-white"> 
                                 Scema Search Engine
-                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2022-</span>
+                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2022- {new Date().getFullYear()}</span>
                             </h4>
                         </div>
                     </div>
 
                     <p className="mt-3.5 text-justify text-[#0F172A] dark:text-gray-300">
-                        scema-search-engine making with google search API 
+                    🌎 Scema Search Engine building with Google Search API 🔍 Searcing Response data comming for google search API (REST API)
                     </p>
 
                     <div className="flex flex-wrap gap-3 items-center mt-4 ml-2">

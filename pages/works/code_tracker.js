@@ -26,7 +26,7 @@ const SnakeGame = () => {
                         <div>
                             <h4 className="font-[700] text-lg text-[#0F172A] dark:text-white"> 
                                 Code_tracker
-                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2021-</span>
+                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2021- {new Date().getFullYear()}</span>
                             </h4>
                         </div>
                     </div>
@@ -67,8 +67,8 @@ const SnakeGame = () => {
                     </div>
 
                     <div className="mt-5">
-                        <Image src="/images/code-tracker-sub1.PNG" width={1100} height={650} className="w-full rounded-lg" alt="snakegame image" />
-                        <Image src="/images/code-tracker-sub2.PNG" width={1100} height={650} className="w-full rounded-lg mt-5" alt="snakegame image" />
+                        <Image src="/images/code-tracker-sub1.PNG" width={1100} height={650} className="w-full rounded-lg" alt="code_tracker image" />
+                        <Image src="/images/code-tracker-sub2.PNG" width={1100} height={650} className="w-full rounded-lg mt-5" alt="code_tracker image" />
                     </div>
                 </section>
             </main>

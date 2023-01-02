@@ -26,7 +26,7 @@ const Brenda = () => {
                         <div>
                             <h4 className="font-[700] text-lg text-[#0F172A] dark:text-white"> 
                                 Brenda
-                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2022-</span>
+                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2022- {new Date().getFullYear()}</span>
                             </h4>
                         </div>
                     </div>
