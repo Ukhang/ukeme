@@ -39,7 +39,7 @@ export default function Home() {
           </p> */}
 
           <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
-            Hello I'm Ukhang, I'm a self thought  Front End engineer.I have 2+ years of experience working 
+            Hello I'm Ukhang, I'm a self thought  Front End engineer.I have 3+ years of experience working 
             as a Front End developer. I don't have any computer science degree. I could not  take computer 
             science degree due to some family and financial problems. But technology has always been a 
             passion of my life. I learned Front End development by looking at Front End enginner roadmap 
