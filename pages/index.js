@@ -28,22 +28,13 @@ export default function Home() {
             I am💻
           </h2>
 
-          {/* <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
-            Hello I'm Ukhang, I'm a self thought full stack engineer.I have three years of experience working 
+          <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
+            Hello I'm Ukhang, I'm a self thought full stack Developer.I have 3+ years of experience working 
             as a full stack developer. I don't have any computer science degree. I could not  take computer 
             science degree due to some family and financial problems. But technology has always been a 
-            passion of my life. So I started clearing computer science subjects from internet like C++, 
+            passion of my life. So I started clearing computer science subjects from internet like programming, 
             Data structure and algorithm, Databases, Discrete Mathematics, computer architecture and 
-            much more. Then I learned full stack development by looking at full stack enginner roadmap 
-            from codecadamy. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet.
-          </p> */}
-
-          <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
-            Hello I'm Ukhang, I'm a self thought  Front End engineer.I have 3+ years of experience working 
-            as a Front End developer. I don't have any computer science degree. I could not  take computer 
-            science degree due to some family and financial problems. But technology has always been a 
-            passion of my life. I learned Front End development by looking at Front End enginner roadmap 
-            from codecadamy. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet.
+            much more. Then I learned full stack development. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet.
           </p>
 
           <p className="mt-2 text-[#0F172A] dark:text-white capitalize"> AWS day online conference certificate of attendance: </p>

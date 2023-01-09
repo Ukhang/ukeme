@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <section className="md:max-w-xl max-w-lg mx-auto md:px-0 px-4 mt-8">
             <h2 className="underline text-xl font-semibold text-[#0F172A] dark:text-white text-center">
-                Skills & My Coding Journey
+                Skills ✅
             </h2>
 
             <div className="mt-3">

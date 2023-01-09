@@ -56,12 +56,11 @@ const Header = () => {
                                 Works
                             </Link>
                         </li>
-                        {/* future add */}
-                        {/* <li>
-                            <Link href="/work" className="capitalize py-2.5 px-3 hover:bg-[#06B6D4] hover:text-white">
+                        <li>
+                            <Link href="https://drive.google.com/file/d/1ioxNPLML9NqfaKkURyPLKlC6zCCSzjYl/view" className="capitalize py-2.5 px-3 hover:bg-[#06B6D4] hover:text-white">
                                 Resume
                             </Link>
-                        </li> */}
+                        </li>
 
                         <li>
                             <Link href="/contact" className={`capitalize py-2.5 px-2.5 hover:bg-[#06B6D4] hover:text-white ${(router.pathname == "/contact" && "bg-[#06B6D4] text-white")}`}>
