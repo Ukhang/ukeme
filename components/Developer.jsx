@@ -61,7 +61,7 @@ const Developer = () => {
           {/* Developer information card */}
           <div className="absolute right-0 z-[5] top-4 md:px-0 px-4">
             <div className="max-w-[17rem] md:py-3 py-2 md:px-5 px-3.5 rounded-lg shadow-2xl dark:shadow-[#264b50] bg-gray-500 dark:bg-gray-600 text-white">
-              Hello, I'm a Full-Stack Developer based in Bangladesh!
+              Hello 👋, I'm a Full-Stack Developer based in Bangladesh!
             </div>
             <MdPlayArrow className="rotate-90 md:mt-[-1rem] mt-[-0.8rem] md:text-5xl text-4xl text-gray-500 dark:text-gray-600"/>
           </div>

@@ -53,18 +53,18 @@ const Header = () => {
                     <ul className="md:flex hidden items-center pl-8 gap-x-1">
                         <li>
                             <Link href="/works" className={`capitalize py-2.5 px-2.5 hover:bg-[#06B6D4] hover:text-white ${(router.pathname == "/works" && "bg-[#06B6D4] text-white")}`}>
-                                Works
+                                <span className="text-sm">💼</span> Works
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://drive.google.com/file/d/1ioxNPLML9NqfaKkURyPLKlC6zCCSzjYl/view" className="capitalize py-2.5 px-3 hover:bg-[#06B6D4] hover:text-white">
-                                Resume
+                            <Link href="https://drive.google.com/file/d/1ioxNPLML9NqfaKkURyPLKlC6zCCSzjYl/view" className="capitalize py-2.5 px-3 hover:bg-[#06B6D4] hover:text-white" target="_blank">
+                                <span className="text-sm">📄</span> Resume
                             </Link>
                         </li>
 
                         <li>
                             <Link href="/contact" className={`capitalize py-2.5 px-2.5 hover:bg-[#06B6D4] hover:text-white ${(router.pathname == "/contact" && "bg-[#06B6D4] text-white")}`}>
-                                Contact
+                                📧 Contact
                             </Link>
                         </li>
 

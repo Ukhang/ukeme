@@ -19,13 +19,13 @@ const About = () => {
                 {/* Left */}
                 <div className="space-y-1">
                     <h2 className={vt323.className}>
-                        <span className="text-5xl text-[#0F172A] dark:text-white">Ukhang Marma</span>
+                        <span className="text-6xl text-[#0F172A] dark:text-white">Ukhang Marma</span>
                     </h2>
-                    <p className="text-[#1E293B] dark:text-white font-[500]"> Software Developer ( Full-Stack ) </p>
+                    <p className="text-[#1E293B] text-lg dark:text-white font-[500]"> Software Developer ( Full-Stack ) </p>
                 </div>
                 {/* Right */}
                 <div className="md:mx-0 mx-auto">
-                    <Image src={Ukhang} alt="Ukhang image" width={90} height={90} className="rounded-lg border-2 border-[#a6e4ee]"/>
+                    <Image src={Ukhang} alt="Ukhang image" width={90} height={90} className="rounded-full border-2 border-[#a6e4ee]"/>
                 </div>
             </div>
         </section>

@@ -29,7 +29,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
-            Hello I'm Ukhang, I'm a self thought full stack Developer.I have 3+ years of experience working 
+            Hello👋 I'm Ukhang, I'm a self thought full stack Developer.I have 3+ years of experience working 
             as a full stack developer. I don't have any computer science degree. I could not  take computer 
             science degree due to some family and financial problems. But technology has always been a 
             passion of my life. So I started clearing computer science subjects from internet like programming, 
@@ -57,24 +57,25 @@ export default function Home() {
           <div className="mt-2.5">
             <div className="flex items-start gap-x-5">
               <h4 className="font-bold text-gray-800 dark:text-white">2002</h4>
-              <span className="text-[#0F172A] dark:text-white">Born in Rajasthali Rangamati, Chittagong, Bangladesh.</span>
+              <span className="text-[#0F172A] dark:text-white">👶 Born in Rajasthali Rangamati, Chittagong, Bangladesh.</span>
             </div>
             <div className="flex items-start gap-x-5 mt-1">
               <h4 className="font-bold text-gray-800 dark:text-white">2017</h4>
-              <span className="text-[#0F172A] dark:text-white">Completed the Secondary School Certificate (SSC) in the A. P. Battalion high school</span>
+              <span className="text-[#0F172A] dark:text-white"> 📄 Completed the Secondary School Certificate (SSC) in the A. P. Battalion high school</span>
             </div>
             <div className="flex items-start gap-x-5 mt-1">
               <h4 className="font-bold text-gray-800 dark:text-white">2020</h4>
-              <span className="text-[#0F172A] dark:text-white">Completed the Higher Secondary Certificate (HSC) in the Dhaka State Collage </span>
+              <span className="text-[#0F172A] dark:text-white"> 📄 Completed the Higher Secondary Certificate (HSC) in the Dhaka State Collage </span>
             </div>
             <div className="flex items-start gap-x-5 mt-1">
               <h4 className="font-bold text-gray-800 dark:text-white">2021</h4>
-              <span className="text-[#0F172A] dark:text-white">Worked as a Frontend Enginner Opentic! (Startup) Bangladesh </span>
+              <span className="text-[#0F172A] dark:text-white"> 💼 Worked as a Frontend Enginner Opentic! (Startup) Bangladesh </span>
             </div>
             <div className="flex items-start gap-x-5 mt-1">
-              <h4 className="font-bold text-gray-800 dark:text-white">Present</h4>
-              {/* <span className="text-[#0F172A] dark:text-white">Preparing for google coding interview and working as a freelancer</span> */}
-              <span className="text-[#0F172A] dark:text-white">Working as FrontEnd Developer</span>
+              <h4 className="font-bold text-gray-800 dark:text-white">2021 - Present</h4>
+              <span className="text-[#0F172A] dark:text-white"> 
+              👨‍🎓 Learning computer science <Link href="https://github.com/ossu/computer-science" target="_blank" className="font-semibold text-blue-500 hover:underline"> Open Souce Socity Univeristy </Link> 
+              </span>
             </div>
           </div>
         </section>
