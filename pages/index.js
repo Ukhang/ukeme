@@ -29,7 +29,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
-            Hello👋 I'm Ukhang, I'm a self thought full stack Developer.I have 3+ years of experience working 
+            Hello <span>👋</span> I'm Ukhang, I'm a self thought full stack Developer.I have 3+ years of experience working 
             as a full stack developer. I don't have any computer science degree. I could not  take computer 
             science degree due to some family and financial problems. But technology has always been a 
             passion of my life. So I started clearing computer science subjects from internet like programming, 
