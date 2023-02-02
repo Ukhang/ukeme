@@ -28,4 +28,4 @@ $PROJECT_ROOT
 ```
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/Ukhang/ukeme/blob/main/LICENSE)
