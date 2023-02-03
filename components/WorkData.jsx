@@ -33,19 +33,19 @@ const WorkData = [
     },
     {
         id: 5,
+        name: "Ai Image Generator",
+        subText: "AI image generator. Generate your desired image. I have created this application with the help of Openai-node node package. ",
+        img: "/images/ai-image-generator.png",
+        alt: "AI-image-generator",
+        link: "/works/ai-image-generator"
+    },
+    {
+        id: 6,
         name: "Scema Search Engine",
         subText: "🌎 Scema Search Engine building with Google Search API. 🔍 Searcing -----> Response data comming for google search API (REST API)",
         img: "/images/scema-search-engine.png",
         alt: "Scema",
         link: "/works/scema-search-engine"
-    },
-    {
-        id: 6,
-        name: "Opentic",
-        subText: "Opentic is a fashion Landing page",
-        img: "/images/opentic.png",
-        alt: "Opentic",
-        link: "/works/opentic"
     },
     {
         id: 7,

@@ -25,19 +25,19 @@ const Opentic = () => {
                         </div>
                         <div>
                             <h4 className="font-[700] text-lg text-[#0F172A] dark:text-white"> 
-                                Opentic - Fashion
-                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2022- {new Date().getFullYear()}</span>
+                                AI Image Generator
+                                <span className="text-[0.8rem] ml-2 bg-blue-100 text-gray-700 dark:bg-gray-600 dark:text-white py-0.5 px-1 font-semibold">2023- {new Date().getFullYear()}</span>
                             </h4>
                         </div>
                     </div>
 
                     <p className="mt-3.5 text-justify text-[#0F172A] dark:text-gray-300">
-                        Beautiful UI landing page template
+                        AI image generator. Generate your desired image. I have created this application with the help of Openai-node node package. 
                     </p>
 
                     <div className="flex flex-wrap gap-3 items-center mt-4 ml-2">
                         <span className="uppercase text-sm bg-lime-200 dark:bg-[#374e12] font-semibold px-1 text-gray-700 dark:text-lime-200"> live </span>
-                        <Link href="https://opntic-fashion.vercel.app/" className="text-blue-600 dark:text-cyan-300 hover:underline" target="_blank">https://opntic-fashion.vercel.app/</Link>
+                        <Link href="https://ukhang.github.io/AI-image-generator/" className="text-blue-600 dark:text-cyan-300 hover:underline" target="_blank">https://ukhang.github.io/AI-image-generator/</Link>
                     </div>
 
                     <div className="flex flex-wrap gap-3 items-center mt-1.5 ml-2">
@@ -52,10 +52,21 @@ const Opentic = () => {
                                 <Image src="/images/react.svg" className="w-[17px] h-[17px]" width={17} height={17} alt="react image"/>
                                 <span>React,</span>
                             </div>
-                            <div className="flex gap-x-1 items-center">
-                                <Image src="/images/next-js.svg" className="dark:hidden w-[17px] h-[17px]" width={19} height={19} alt="nextjs image"/>
-                                <Image src="/images/nextjs-white.svg" className="dark:block hidden w-[17px] h-[17px]" width={19} height={19} alt="nextjs image"/>
-                                <span>Next js</span>
+                            <div className="flex gap-x-0.5 items-center">
+                                <Image src="/images/tailwind-css.svg" className="w-[17px] h-[17px]" width={17} height={17} alt="Tailwindcss Image"/>
+                                <span>TailwindCSS,</span>
+                            </div>
+                            <div className="flex gap-x-0.5 items-center">
+                                <Image src="/images/node.png" className="w-[17px] h-[17px]" width={20} height={17} alt="Nodejs Image"/>
+                                <span>Nodejs,</span>
+                            </div>
+                            <div className="flex gap-x-0.5 items-center">
+                                <Image src="/images/express.png" className="w-[17px] h-[17px]" width={20} height={17} alt="Expressjs Image"/>
+                                <span>Express,</span>
+                            </div>
+                            <div className="flex gap-x-0.5 items-center">
+                                <Image src="/images/openai.png" className="w-[17px] h-[17px]" width={20} height={17} alt="Openai Image"/>
+                                <span>OpenAI-node</span>
                             </div>
                         </span>
                     </div>
@@ -64,12 +75,11 @@ const Opentic = () => {
                         <span className="uppercase text-sm bg-lime-200 dark:bg-[#374e12] font-semibold px-1 text-gray-700 dark:text-lime-200 flex items-center gap-x-1"> 
                             Code <FaGithub/>
                         </span>
-                        <Link href="https://github.com/Ukhang/opntic-fashion" className="text-blue-600 dark:text-cyan-300 hover:underline" target="_blank">https://github.com/Ukhang/opntic-fashion</Link>
+                        <Link href="https://github.com/Ukhang/AI-image-generator" className="text-blue-600 dark:text-cyan-300 hover:underline" target="_blank">https://github.com/Ukhang/AI-image-generator</Link>
                     </div>
 
                     <div className="mt-5">
-                        <Image src="/images/opentic-sub1.PNG" width={1100} height={650} className="w-full rounded-lg" alt="Opentic image" />
-                        <Image src="/images/opentic-sub2.PNG" width={1100} height={650} className="w-full rounded-lg mt-5" alt="Opentic Image" />
+                        <Image src="/images/ai-image-generator-sub1.png" width={1100} height={650} className="w-full rounded-lg" alt="Opentic image" />
                     </div>
                 </section>
             </main>

@@ -254,6 +254,15 @@ const Skills = () => {
                     >
                         <Image src="/images/nextjs.png" alt="nextjs image" width={30} height={31} />
                     </motion.div>
+                    <motion.div 
+                        className="ml-[5rem] cursor-pointer"
+                        initial={{y: "10%", opacity: 0 }}
+                        whileInView={{y: 0, opacity: 1}}
+                        transition={{delay: 0.1, type: "spring", stiffness: 100}}
+                        title="Typescript"
+                    >
+                        <Image src="/images/typescript.png" alt="typescript image" width={25} height={25} />
+                    </motion.div>
                 </div>
 
                 {/* Bar */}
