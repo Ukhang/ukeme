@@ -65,7 +65,8 @@ const Opentic = () => {
                                 <span>Express,</span>
                             </div>
                             <div className="flex gap-x-0.5 items-center">
-                                <Image src="/images/openai.png" className="w-[17px] h-[17px]" width={20} height={17} alt="Openai Image"/>
+                                <Image src="/images/openai.png" className="dark:hidden w-[17px] h-[17px]" width={20} height={17} alt="Openai Image"/>
+                                <Image src="/images/openai-white.png" className="hidden dark:block w-[25px] h-[25px]" width={25} height={25} alt="nextjs image"/>
                                 <span>OpenAI-node</span>
                             </div>
                         </span>
