@@ -19,9 +19,9 @@ const About = () => {
                 {/* Left */}
                 <div className="space-y-1">
                     <h2 className={vt323.className}>
-                        <span className="text-6xl text-[#0F172A] dark:text-white">Ukhang Marma</span>
+                        <span className="sm:text-6xl text-5xl text-[#0F172A] dark:text-white">Ukhang Marma</span>
                     </h2>
-                    <p className="text-[#1E293B] text-lg dark:text-white font-[500]"> Software Developer ( Full-Stack ) </p>
+                    <p className="text-[#1E293B] sm:text-lg dark:text-white font-[500]"> Software Developer ( Full-Stack ) </p>
                 </div>
                 {/* Right */}
                 <div className="md:mx-0 mx-auto">

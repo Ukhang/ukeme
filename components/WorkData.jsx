@@ -46,15 +46,7 @@ const WorkData = [
         img: "/images/scema-search-engine.png",
         alt: "Scema",
         link: "/works/scema-search-engine"
-    },
-    {
-        id: 7,
-        name: "code_tracker",
-        subText: "Code - tracker this allows users to add code issues or code reports. It is built with Vanilla Js, Bootstrap and Custom CSS",
-        img: "/images/code-tracker.png",
-        alt: "code_tracker",
-        link: "/works/code_tracker"
-    },
+    }
 ];
 
 export default WorkData;

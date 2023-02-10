@@ -50,17 +50,18 @@ const Header = () => {
                     </div>
 
                     {/* List */}
-                    <ul className="md:flex hidden items-center pl-8 gap-x-1">
+                    <ul className="lg:flex hidden items-center pl-8 gap-x-1">
                         <li>
                             <Link href="/works" className={`capitalize py-2.5 px-2.5 hover:bg-[#06B6D4] hover:text-white ${(router.pathname == "/works" && "bg-[#06B6D4] text-white")}`}>
                                 <span className="text-sm">💼</span> Works
                             </Link>
                         </li>
-                        <li>
+                        
+                        {/* <li>
                             <Link href="https://drive.google.com/file/d/1ioxNPLML9NqfaKkURyPLKlC6zCCSzjYl/view" className="capitalize py-2.5 px-3 hover:bg-[#06B6D4] hover:text-white" target="_blank">
                                 <span className="text-sm">📄</span> Resume
                             </Link>
-                        </li>
+                        </li> */}
 
                         <li>
                             <Link href="/contact" className={`capitalize py-2.5 px-2.5 hover:bg-[#06B6D4] hover:text-white ${(router.pathname == "/contact" && "bg-[#06B6D4] text-white")}`}>
@@ -87,7 +88,7 @@ const Header = () => {
                     </button>
                     {/* Dropdown button */}
                     <button 
-                        className={`py-2.5 px-3 border dark:border-gray-600 text-lg text-gray-700 dark:text-white rounded-md md:hidden hover:bg-[#e2f4f8] dark:hover:bg-gray-700 hover:ring-4 ring-[#92e9f8] ${dropdown == true ? "bg-[#e2f4f8] dark:bg-gray-700" : "bg-gray-100 dark:bg-gray-800"}`} 
+                        className={`py-2.5 px-3 border dark:border-gray-600 text-lg text-gray-700 dark:text-white rounded-md lg:hidden hover:bg-[#e2f4f8] dark:hover:bg-gray-700 hover:ring-4 ring-[#92e9f8] ${dropdown == true ? "bg-[#e2f4f8] dark:bg-gray-700" : "bg-gray-100 dark:bg-gray-800"}`} 
                         onClick={() => setDropdown(!dropdown)}
                     >
                         <GoThreeBars/>
@@ -96,18 +97,22 @@ const Header = () => {
 
 
                 {/* Dropdown Menu */}
-                <div className={`absolute top-[3.8rem] bg-white min-w-[15rem] right-1 py-2.5 rounded-md border shadow-md dark:bg-gray-700 dark:border-gray-500 md:hidden z-10 ${dropdown == true ? "block" : "hidden"}`}>
+                <div className={`absolute top-[3.8rem] bg-white min-w-[15rem] right-1 py-2.5 rounded-md border shadow-md dark:bg-gray-700 dark:border-gray-500 lg:hidden z-10 ${dropdown == true ? "block" : "hidden"}`}>
                     <ul className="space-y-0.5">
                         <li className={`py-2 px-3 cursor-pointer hover:bg-[#e2f4f8] dark:hover:bg-gray-600 ${(router.pathname == "/" && "bg-[#e2f4f8] dark:bg-gray-600")}`}>
                             <Link href='/' className="capitalize">
-                                About
+                                <span className="text-sm">👨‍💻</span> About
                             </Link>
                         </li>
                         <li className={`py-2 px-3 cursor-pointer hover:bg-[#e2f4f8] dark:hover:bg-gray-600 ${(router.pathname == "/works" && "bg-[#e2f4f8] dark:bg-gray-600")}`}>
-                            <Link href='/works' className="capitalize">Works</Link>
+                            <Link href='/works' className="capitalize">
+                                <span className="text-sm">💼</span> Works
+                            </Link>
                         </li>
                         <li className={`py-2 px-3 cursor-pointer hover:bg-[#e2f4f8] dark:hover:bg-gray-600 ${(router.pathname == "/contact" && "bg-[#e2f4f8] dark:bg-gray-600")}`}>
-                            <Link href='/contact' className="capitalize">Contact</Link>
+                            <Link href='/contact' className="capitalize">
+                                📧 Contact
+                            </Link>
                         </li>
                         <li className={`py-2 px-3 cursor-pointer hover:bg-[#e2f4f8] dark:hover:bg-gray-600 ${(router.pathname == "/source" && "bg-[#e2f4f8] dark:bg-gray-600")}`}>
                             <Link href='https://github.com/Ukhang/ukeme' target="_blank" className="flex items-center gap-x-1 capitalize">

@@ -37,3 +37,23 @@
     transform: rotate(0deg);
   }
 }
+
+/* ==== Rote Animation ==== */
+.rote {
+  animation-name: rotate-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+}
+
+@keyframes rotate-animation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}

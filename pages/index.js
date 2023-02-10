@@ -25,19 +25,24 @@ export default function Home() {
         {/* Works */}
         <section className="md:max-w-xl max-w-lg mx-auto md:px-0 px-4 md:mt-[9rem] mt-[13rem]">
           <h2 className="underline text-xl font-semibold text-[#0F172A] dark:text-white">
-            I am💻
+            I am <span className="rote">💻</span>
           </h2>
 
           <p className="mt-2.5 text-[#0F172A] dark:text-white tracking-wide text-justify">
-            Hello👋 I'm Ukhang, I'm a self thought full stack Developer.I have 3+ years of experience working 
-            as a full stack developer. I don't have any computer science degree. I could not  take computer 
-            science degree due to some family and financial problems. But technology has always been a 
-            passion of my life. So I started clearing computer science subjects from internet like programming, 
-            Data structure and algorithm, Databases, Discrete Mathematics, computer architecture and 
-            much more. Then I learned full stack development. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet.
+            <span className="invisible">__</span>Hello👋 I'm Ukhang. Self-learning software engineering through research & development. I love solving real-world🌏 problems with code. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet. Technology has always been a passion of my life. I like meditation and reading books in my free time.
           </p>
 
-          <p className="mt-2 text-[#0F172A] dark:text-white capitalize"> AWS day online conference certificate of attendance: </p>
+          <h2 className="font-semibold text-[#0F172A] dark:text-white">
+            Future 🌳
+          </h2>
+
+          <p className="text-[#0F172A] dark:text-white tracking-wide text-justify"> I was inspired by <Link href="https://en.wikipedia.org/wiki/Larry_Ellison" className="hover:underline"> Larry Ellison </Link> and <Link href="https://en.wikipedia.org/wiki/Bill_Gates" className="hover:underline"> Bill Gates </Link> when I was a child. I also want to do something big with technology like them when I grow up. So startups it will very likely be my future career!</p>
+
+          <h2 className="text-xl font-semibold text-[#0F172A] dark:text-white mt-5">
+            Certificate 📑
+          </h2>
+
+          <p className="mt-2 text-[#0F172A] dark:text-white capitalize font-semibold"> AWS day online conference certificate of attendance: </p>
           {/* Certificate Aws */}
           <Image src={awsct} alt="aws certificate" width={"100%"} height={"100%"} className="mt-2" />
 

@@ -103,7 +103,7 @@ const Skills = () => {
                 ></motion.div>
 
                {/* Image */}
-                {/* <div className="md:ml-[10rem] ml-[7.5rem] mt-2">
+                <div className="md:ml-[10rem] ml-[7.5rem] mt-2">
                     <motion.div
                         initial={{y: "10%", opacity: 0 }}
                         whileInView={{y: 0, opacity: 1}}
@@ -149,10 +149,19 @@ const Skills = () => {
                     >
                         <Image src="/images/discrete-math.png" alt="discretemathmatics image" width={30} height={31} />
                     </motion.div>
-                </div> */}
+                    <motion.div 
+                        className="ml-[5rem] cursor-pointer"
+                        initial={{y: "10%", opacity: 0 }}
+                        whileInView={{y: 0, opacity: 1}}
+                        transition={{delay: 0.1, type: "spring", stiffness: 100}}
+                        title="Computer Networking"
+                    >
+                        <Image src="/images/networking.png" alt="computernetworking image" width={30} height={31} />
+                    </motion.div>
+                </div>
 
                 {/* Bar */}
-                {/* <motion.div 
+                <motion.div 
                     className=" w-1 h-8 bg-gray-800 dark:bg-gray-200 py-1 px-1 md:ml-[14rem] ml-[11rem] md:rotate-[-20deg] rotate-[-10deg] mt-2"
                     initial={{opacity: 0 }}
                     whileInView={{opacity: 1}}
@@ -169,7 +178,7 @@ const Skills = () => {
                     initial={{opacity: 0 }}
                     whileInView={{opacity: 1}}
                     transition={{delay: 0.1, type: "spring", stiffness: 100}}
-                ></motion.div> */}
+                ></motion.div>
 
                 {/* Image */}
                 <div className="md:ml-[11rem] ml-[8rem] mt-2">
