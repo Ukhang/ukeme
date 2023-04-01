@@ -38,14 +38,6 @@ export default function Home() {
 
           <p className="text-[#0F172A] dark:text-white tracking-wide text-justify"> I was inspired by <Link href="https://en.wikipedia.org/wiki/Larry_Ellison" className="hover:underline"> Larry Ellison </Link> and <Link href="https://en.wikipedia.org/wiki/Bill_Gates" className="hover:underline"> Bill Gates </Link> when I was a child. I also want to do something big with technology like them when I grow up. So startups it will very likely be my future career!</p>
 
-          <h2 className="text-xl font-semibold text-[#0F172A] dark:text-white mt-5">
-            Certificate 📑
-          </h2>
-
-          <p className="mt-2 text-[#0F172A] dark:text-white capitalize font-semibold"> AWS day online conference certificate of attendance: </p>
-          {/* Certificate Aws */}
-          <Image src={awsct} alt="aws certificate" width={"100%"} height={"100%"} className="mt-2" />
-
           <div className="mt-6">
             <Link href="/works" className="bg-[#06B6D4] py-2.5 px-4 text-white capitalize rounded-md font-semibold hover:bg-[#06abc9]"> 
               My Portfolio 📝
