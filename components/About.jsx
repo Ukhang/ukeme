@@ -1,35 +1,32 @@
-import Developer from "./Developer";
-import Image from "next/image";
-import Ukhang from "../public/images/dev.png";
-import { VT323 } from "@next/font/google";
-
-// Google font
-const vt323 = VT323({
-  weight: '400'
-});
+import Link from "next/link";
 
 const About = () => {
-    return (
-        <section className="max-w-3xl h-[30rem] mx-auto px-4 relative">
-            {/* Developer 3D */}
-            <Developer/>
+  return (
+    <section className="md:max-w-xl max-w-lg mx-auto md:px-0 px-4 md:mt-[9rem] mt-[13rem]">
+      <div className="space-y-2.5">
+        <h4 className="underline text-xl font-semibold text-[#0F172A] dark:text-white">
+          I am <span className="rote">💻</span>
+        </h4>
+        <p className="text-[#0F172A] dark:text-gray-200 tracking-wide text-justify">
+          &nbsp; Hello I'm Ukhang. Self-learning software engineering through
+          research & development. I love solving real-world problems with code.
+          I have improved my skills by participating in various hackathons and I
+          have done free classes at various live events on the internet.
+          Technology has always been a passion of my life. I like meditation and
+          reading books in my free time.
+        </p>
+      </div>
 
-            {/* Name and profession */}
-            <div className="md:max-w-xl max-w-lg mx-auto flex md:flex-row flex-col justify-between md:items-center md:gap-x-5 md:gap-y-0 gap-y-5">
-                {/* Left */}
-                <div className="space-y-1">
-                    <h2 className={vt323.className}>
-                        <span className="sm:text-6xl text-5xl text-[#0F172A] dark:text-white">Ukhang Marma</span>
-                    </h2>
-                    <p className="text-[#1E293B] sm:text-lg dark:text-white font-[500]"> Software Developer ( Full-Stack ) </p>
-                </div>
-                {/* Right */}
-                <div className="md:mx-0 mx-auto">
-                    <Image src={Ukhang} alt="Ukhang image" width={90} height={90} className="rounded-full border-2 border-[#a6e4ee]"/>
-                </div>
-            </div>
-        </section>
-    )
-}
+      <div className="mt-6">
+        <Link
+          href="/works"
+          className="bg-[#06B6D4] py-2.5 px-4 text-white capitalize rounded-md font-semibold hover:bg-[#06abc9]"
+        >
+          My Portfolio 📁
+        </Link>
+      </div>
+    </section>
+  );
+};
 
 export default About;
