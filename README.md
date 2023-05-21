@@ -2,7 +2,7 @@
 
 Ukhang Marma Portfolio Website ✅
 
-Inspired by [craftzdog - craftzdog-homepage project](https://github.com/craftzdog/craftzdog-homepage)
+Inspired by [craftzdog - craftzdog-homepage project](https://github.com/craftzdog/craftzdog-homepage).
 
 ![vercel-building](https://user-images.githubusercontent.com/94834060/202710082-c4561c0b-da58-4a0b-9e48-a695d92aaf82.png)
 
