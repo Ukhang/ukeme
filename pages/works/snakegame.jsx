@@ -118,7 +118,7 @@ const SnakeGame = () => {
 
           <div className="mt-5">
             <Image
-              src="/images/snakegame-sub1.PNG"
+              src="/images/works/snake-game/01.png"
               width={1100}
               height={650}
               className="w-full rounded-lg"
