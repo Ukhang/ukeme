@@ -115,21 +115,21 @@ const Brenda = () => {
 
           <div className="mt-5">
             <Image
-              src="/images/works/01.png"
+              src="/images/works/brenda/01.png"
               width={1100}
               height={650}
               className="w-full rounded-lg"
               alt="brenda image"
             />
             <Image
-              src="/images/works/02.png"
+              src="/images/works/brenda/02.png"
               width={1100}
               height={650}
               className="w-full rounded-lg mt-5"
               alt="brenda image"
             />
             <Image
-              src="/images/works/03.png"
+              src="/images/works/brenda/03.png"
               width={1100}
               height={650}
               className="w-full rounded-lg mt-5"
