@@ -1,4 +1,4 @@
-# ![ukeme](https://github.com/Ukhang/ukeme/assets/94834060/3df1710f-8153-4f13-97bc-fa88e9593d9f) Ukeme
+# ![favicon](https://github.com/Ukhang/ukeme/assets/94834060/72d32084-ae14-484c-9e43-3aac42186527) Ukeme
 
 Ukhang Marma Portfolio Website ✅
 
@@ -27,5 +27,4 @@ $PROJECT_ROOT
 |--- Public
 ```
 ## License
-
 [MIT](https://github.com/Ukhang/ukeme/blob/main/LICENSE)
