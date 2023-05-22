@@ -3,10 +3,18 @@ import { BiChevronRight } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
+import { Inter } from "@next/font/google";
+
+// ==== Font ====
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 const Brenda = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900">
+    <div
+      className={`min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900 ${inter.className}`}
+    >
       {/* Head Tag */}
       <HeadTag title="Brenda - Ukhang Marma" />
 

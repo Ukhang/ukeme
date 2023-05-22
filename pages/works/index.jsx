@@ -7,12 +7,20 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Footer from "../../components/Footer";
+import { Inter } from "@next/font/google";
+
+// ==== Font ====
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 const Works = () => {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900">
+    <div
+      className={`min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900 ${inter.className}`}
+    >
       {/* Head Tag */}
       <HeadTag title="Works - Ukhang Marma" />
 

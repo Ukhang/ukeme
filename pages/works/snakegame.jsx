@@ -3,15 +3,23 @@ import { BiChevronRight } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
+import { Inter } from "@next/font/google";
+
+// ==== Font ====
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 const SnakeGame = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900">
+    <div
+      className={`min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900 ${inter.className}`}
+    >
       {/* Head Tag */}
       <HeadTag title="SnakeGame - Ukhang Marma" />
 
       {/* Navbar */}
-      <Navbar/>
+      <Navbar />
 
       {/* Main */}
       <main className="mt-16 mb-14">

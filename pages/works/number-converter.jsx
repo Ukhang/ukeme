@@ -3,10 +3,18 @@ import { BiChevronRight } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
+import { Inter } from "@next/font/google";
+
+// ==== Font ====
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 const NumberConverter = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900">
+    <div
+      className={`min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900 ${inter.className}`}
+    >
       {/* Head Tag */}
       <HeadTag title="NumberConverter - Ukhang Marma" />
 
@@ -37,7 +45,9 @@ const NumberConverter = () => {
           </div>
 
           <p className="mt-3.5 text-justify text-[#0F172A] dark:text-gray-300">
-            Open source number converter web. It allows you to convert numbers from one numeral system to another, such as Decimal to Binary, Binary to Decimal, and more. 
+            Open source number converter web. It allows you to convert numbers
+            from one numeral system to another, such as Decimal to Binary,
+            Binary to Decimal, and more.
           </p>
 
           <div className="flex flex-wrap gap-3 items-center mt-4 ml-2">

@@ -5,10 +5,18 @@ import Image from "next/image";
 import gmail from "../public/images/gmail.png";
 import whatsapp from "../public/images/whatsapp.png";
 import { motion } from "framer-motion";
+import { Inter } from "@next/font/google";
+
+// ==== Font ====
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 const Contact = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900">
+    <div
+      className={`min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900 ${inter.className}`}
+    >
       {/* Head Tag */}
       <HeadTag title="Contact - Ukhang Marma" />
 
