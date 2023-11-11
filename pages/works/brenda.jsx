@@ -13,7 +13,7 @@ const inter = Inter({
 const Brenda = () => {
   return (
     <div
-      className={`min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900 ${inter.className}`}
+      className={`min-h-screen flex flex-col bg-[#fcffff] dark:bg-gray-900 ${inter.className}`}
     >
       {/* Head Tag */}
       <HeadTag title="Brenda - Ukhang Marma" />

@@ -18,8 +18,8 @@ const Bio = () => {
           </p>
         </div>
         <div className="flex gap-3">
-          <span className="font-semibold">2021 to present</span>{" "}
-          <p>Working as a Developer</p>
+          <span className="font-semibold">Jul, 2023 to present</span>{" "}
+          <p>Frontend Engineer at Little programmer</p>
         </div>
       </div>
     </section>

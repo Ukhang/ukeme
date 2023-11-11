@@ -13,7 +13,7 @@ const inter = Inter({
 export default function Home() {
   return (
     <div
-      className={`min-h-screen flex flex-col bg-[#f0fdfd] dark:bg-gray-900 ${inter.className}`}
+      className={`min-h-screen flex flex-col bg-[#fcffff] dark:bg-gray-900 ${inter.className}`}
     >
       {/* Head Tag */}
       <HeadTag title="Ukhang Marma - Homepage" />
@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* Main */}
       <main className="mt-16 mb-14">
-        {/* loding 3d models */}
+        {/* loading 3d models */}
         <Hero />
 
         {/* About */}

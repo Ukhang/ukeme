@@ -8,12 +8,8 @@ const About = () => {
           I am <span className="rote">💻</span>
         </h4>
         <p className="text-[#0F172A] dark:text-gray-200 tracking-wide text-justify">
-          &nbsp; Hello I'm Ukhang. Self-learning software engineering through
-          research & development. I love solving real-world problems with code.
-          I have improved my skills by participating in various hackathons and I
-          have done free classes at various live events on the internet.
-          Technology has always been a passion of my life. I like meditation and
-          reading books in my free time.
+        Hello, I'm Ukhang, a passionate self-learner in software engineering, dedicated to advancing my knowledge through research and development. I love solving real-world problems with code. I have improved my skills by participating in various hackathons and I have done free classes at various live events on the internet. Technology has always been a passion of my life.
+
         </p>
       </div>
 
